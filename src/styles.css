@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the app */
+    align-items: center; /* Vertically center the app */
+    height: 80vh; /* Ensure the app covers the entire viewport height */
+  }
+  
+  /* App Container */
+  .App {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Quote Box */
+  .quote-box {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .quote-author {
+    font-size: 16px;
+    font-style: italic;
+    color: #666;
+  }
+  
+  /* Button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message */
+  .Message {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .Message span {
+    font-weight: bold;
+  }
+  
